@@ -1,0 +1,48 @@
+# ============= 敏感信息（最重要） =============
+# API Keys / Secrets - 任何包含密钥的文件
+*.env
+.env
+.env.*
+*.key
+*.pem
+secrets.yml
+secrets.yaml
+secrets.properties
+application-local.yml
+application-local.yaml
+application-secret.yml
+application-secret.yaml
+
+# ============= IDE =============
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# ============= Java / Maven =============
+target/
+build/
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+replay_pid*
+
+# ============= 日志 =============
+*.log
+logs/
+
+# ============= 本地配置 =============
+local.properties
+*-local.yml
+*-local.yaml
+
+# ============= 备份 =============
+*.bak
+*.backup
+*~
